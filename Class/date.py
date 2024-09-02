@@ -12,6 +12,7 @@
 import time
 from restaurant_menu import food_menu #to keep the script more simple and organized I'm importing the menu.
 
+<<<<<<< HEAD
 date = input("Insert the name of your date: ") #ask for the name of the date and stores it in the date variable.
 budget = float(input("Insert your budget: $")) #ask for budget and stores it in the budget variable.
 
@@ -73,3 +74,22 @@ budget = order_item(food_menu, budget) # Same here as in line 66.
 #cheackout stage
 pay_the_bill(budget) #Recalling the checkout function to end the date.
 
+=======
+import restaurant_menu 
+def menu(): 
+    print("[1] Appetizers")
+    print("[2] main course")
+    print("[3] Desserts")
+    print("[4] Beverages")
+    print("[0] exit")
+
+#date = input("Insert the name of your date: ") 
+#budget = input("Insert your budget: " )
+
+menu()
+choice = int(input("Insert a number [1-4] to select a catergory you'd like to look through: ")
+
+while choice !==0:
+    if choice == 1 
+        print(restaurant_menu.Appetizers.)
+>>>>>>> a3845cc5a8cc36a9649d0fdc1a9001299c366b7c
