@@ -76,7 +76,6 @@
 # }
 
 # print(food_menu["appetizer"]["dumplings"]["price"])
-
 food_menu = {
     "appetizer": {
         "samosa": {
