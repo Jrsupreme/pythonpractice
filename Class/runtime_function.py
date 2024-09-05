@@ -7,5 +7,7 @@ def runtime(total_hours, down_hours):
     uptime = ((total_hours - down_hours)/total_hours) * 100 #basic percentage math formula
     return round(uptime, 2) #round method takes the first argument and round's it up to the number of decimal places specified in second argument
 
-runtime(200, 20)
+print(runtime(213, 37))
+
+
 
