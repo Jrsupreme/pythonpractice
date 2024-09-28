@@ -5,7 +5,7 @@ import os #need function to check if file exist from this module
 fp = input("input file path: ") #take input to make script re-usable
 
 if os.path.exists(fp): #check if file path exist
-    file = open(fp, "r") #open the file and read txt mode
+    file = open(fp, "rt") #open the file and read txt mode
     line_number = 1 #line count
     for line_number, line in file: #itereate line by line
         line_number +=1 #add 1 per line
