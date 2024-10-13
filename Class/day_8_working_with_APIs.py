@@ -4,7 +4,7 @@
 import requests
 #I noticed that when retrieving data from this api the only thing that changed was the end of the url, so I'm going to store said url as a variable and have the end part of it be defined later on thrugh another variable.
 base_url = "https://dad-jokes7.p.rapidapi.com/dad-jokes/" 
-#this api can display random jokes or joke of the day, I'll leave up to the user to choose
+#this api:https://rapidapi.com/almann/api/dad-jokes7/playground/apiendpoint_f7ad154d-7972-4855-a291-66fee9902801 can display random jokes or joke of the day, I'll leave up to the user to choose
 print("Dad jokes")
 print("1. type '1' for random dad jokes")
 print("2. type '2' for the dad joke of the day")
