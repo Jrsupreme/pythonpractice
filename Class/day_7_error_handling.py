@@ -2,7 +2,7 @@
 #print each line of the file with its line number
 import os #need function to check if file exist from this module
 
-try:                                                                            #removed the last "t" from .txt at the end of the file name to test the script
+try:                                                                 #removed the last "t" from .txt at the end of the file name to test the script
     file = open("/home/ubuntu/python/python_practice/Class/day_5_sample.tx", "r") #take input to make script re-usable
     #print(file.read())
     #check if file path exist
@@ -20,6 +20,6 @@ try:                                                                            
     # else:
     #     print(f"{fp} does not exist") #if file doesn't exist say so
 except:
-    print(f"The file was NOT found. Please check the file's path or name")
-finally:
+    print(f"The file was NOT found. Please check the file's path or name") #if there's an issues with the file path this error message will be triggered
+finally: #regardless of what happens close the file if gets open
     file.close()
