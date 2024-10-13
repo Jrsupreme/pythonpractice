@@ -1,6 +1,6 @@
 #Create a dictionary to store information about 3 students (name, age, grade)
 #Print each student information in readable format
-#include the dictionaru within script
+#include the dictionaries within script
 
 # #student_info = {
 #     "Name" : "Jaiden", "Maira", "Selena",
@@ -27,10 +27,10 @@ students = { #went with nested dictionaries isntead so that we can access specif
     }
 }
 
-for student_no, student_info in students.items(): #iterating through the main dictionary keys and values. .items() allows us to iterate through both keys and values of the dictionaries.
-    print(f"Details of {student_no}") #printing the keys only aka dictionary names.
-    for keys, values in student_info.items(): #iterating through the sub-dictionaries keys and values.
-        print(f"{keys} : {values}") #printing the keys and values for each of the students dictionaries
+#for student_no, student_info in students.items(): #iterating through the main dictionary keys and values. .items() allows us to iterate through both keys and values of the dictionaries.
+   # print(f"Details of {student_no}") #printing the keys only aka dictionary names.
+    # for keys, values in student_info.items(): #iterating through the sub-dictionaries keys and values.
+      #  print(f"{keys} : {values}") #printing the keys and values for each of the students dictionaries
 
 #or
 
